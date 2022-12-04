@@ -1,0 +1,65 @@
+body{
+    background-color:slategray;
+}
+.App{
+    width: 50%;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    margin: 10rem auto;
+        /* height: 40rem;
+        padding: 0 20px 0 20px; */
+
+}
+.App .main-up{
+    /* background-color: red;
+    width: 100%; */
+    text-align: center;
+}
+.weight-info{
+     color: yellowgreen;
+     text-align: center;
+}
+
+.inside{
+    background-color: darkslategrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid pink;
+    height: 20rem;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.inputs input{
+    width: 50%;
+    border: 3px solid pink;
+    outline: none;
+    background-color: transparent;
+}
+.inputs .weight{
+    display: flex;
+    gap: 2px;
+    height: 27px;
+}
+.inputs .weight label{
+    background-color: #fff;
+    width: 70%;
+    font-size: 19px;
+    color: crimson;
+}
+form button{
+    background-color:hotpink;
+    border: none;
+    outline: none;
+    margin-top: 2rem;
+    width: 100%;
+    display: inline-block;
+    font-size: 22px;
+    color: #fff;
+    padding: 7px 0;
+}
